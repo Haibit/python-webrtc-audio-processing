@@ -10,7 +10,10 @@ Python binding of WebRTC Audio Processing.
 + compile toolchain
 + python
 
-## Build
+## Install
+pip3 install -U webrtc-audio-processing
+
+## Build（只支持linus，而且似乎安装之后也会出现import error）
 There are two way to build the package.
 
 1. using setup.py
